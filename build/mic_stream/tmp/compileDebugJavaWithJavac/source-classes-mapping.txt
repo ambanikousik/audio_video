@@ -1,0 +1,9 @@
+com/code/aaron/micstream/MicStreamPlugin.java
+ com.code.aaron.micstream.MicStreamPlugin
+ com.code.aaron.micstream.MicStreamPlugin$1
+ com.code.aaron.micstream.MicStreamPlugin$MainThreadEventSink
+ com.code.aaron.micstream.MicStreamPlugin$MainThreadEventSink$1
+ com.code.aaron.micstream.MicStreamPlugin$MainThreadEventSink$2
+ com.code.aaron.micstream.MicStreamPlugin$MainThreadEventSink$3
+com/code/aaron/micstream/BuildConfig.java
+ com.code.aaron.micstream.BuildConfig
