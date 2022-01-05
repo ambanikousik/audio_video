@@ -75,12 +75,12 @@ class CreateAudioRecordPage extends HookWidget implements AutoRouteWrapper {
                   orElse: () => const SizedBox.shrink()),
               GestureDetector(
                 onTap: () {
-                  Logger().i("onpressed");
+                  // Logger().i("onpressed");
                   state.maybeWhen(recording: (stream, r) {
-                    Logger().i("Stop");
+                    // Logger().i("Stop");
                     bloc.add(const CreateAudioPostTabEvent.stopRecording());
                   }, orElse: () {
-                    Logger().i("Start");
+                    // Logger().i("Start");
                     bloc.add(const CreateAudioPostTabEvent.startRecording());
                   });
                 },
